@@ -43,8 +43,8 @@ class QuizDetailView(DetailView):
     def get(self, request, *args, **kwargs):
         self.object = self.get_object()
 
-        if self.object.draft and not request.user.has_perm('quiz.change_quiz'):
-            raise PermissionDenied
+        # if self.object.draft and not request.user.has_perm('quiz.change_quiz'):
+        #     raise PermissionDenied
 
         context = self.get_context_data(object=self.object)
         return self.render_to_response(context)

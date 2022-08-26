@@ -22,15 +22,14 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'django-model-utils>=3.1.1',
-        'Django>=1.8.19',
-        'Pillow>=4.0.0'
+        'django-model-utils',
+        'Django',
+        'Pillow'
     ],
     test_suite='runtests.runtests'
 )

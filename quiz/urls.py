@@ -1,14 +1,13 @@
-try:
-    from django.conf.urls import url
-except ImportError:
-    from django.urls import re_path as url
-
+from django.urls import re_path as url
+from django.urls import path, include
+from django.contrib.auth import views as auth_views
 from .views import QuizListView, CategoriesListView, \
     ViewQuizListByCategory, QuizUserProgressView, QuizMarkingList, \
     QuizMarkingDetail, QuizDetailView, QuizTake
 
 urlpatterns = [
-
+    path('accounts/login/', auth_views.LoginView.as_view()),
+    
     url(r'^$',
         view=QuizListView.as_view(),
         name='quiz_index'),
