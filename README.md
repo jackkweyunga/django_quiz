@@ -1,6 +1,7 @@
 Django quiz app
 ===============
-[![Build Status](https://travis-ci.org/tomwalker/django_quiz.svg?branch=master)](https://travis-ci.org/tomwalker/django_quiz)
+
+![test](https://github.com/jackkweyunga/django_quiz/actions/workflows/ci.yaml/badge.svg)
 
 This is a configurable quiz app for Django.
 
