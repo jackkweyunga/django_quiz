@@ -9,7 +9,7 @@ on:
 jobs:
 
   run-tests:
-    
+    name: Run tests with tox.
     runs-on: ubuntu-latest
 
     strategy:
