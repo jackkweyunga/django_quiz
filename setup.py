@@ -11,9 +11,9 @@ setup(
     license='MIT License',
     description='A configurable quiz app for Django.',
     long_description=readme,
-    url='https://github.com/tomwalker/django_quiz',
+    url='https://github.com/jackkweyunga/django_quiz',
     author='Tom Walker',
-    author_email='tomwalker0472@gmail.com',
+    author_email='jackkweyunga@gmail.com',
     zip_safe=False,
     classifiers=[
         'Environment :: Web Environment',

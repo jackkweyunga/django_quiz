@@ -1,6 +1,8 @@
 django
 django-model-utils
 Pillow
+six
+django-cors-headers
 
 # Only needed for running tests.
 tox
