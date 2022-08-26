@@ -1,5 +1,4 @@
-name: 1 - package to pypi 
-
+name: 1 - tests
 on:
   workflow_dispatch:
   workflow_call:
