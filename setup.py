@@ -18,7 +18,8 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/jackkweyunga/django_quiz',
-    author='Tom Walker',
+    original_author='Tom Walker',
+    current_mantainer='Jack Kweyunga',
     author_email='jackkweyunga@gmail.com',
     zip_safe=False,
     classifiers=[
