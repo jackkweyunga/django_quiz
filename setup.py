@@ -33,9 +33,10 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'django-model-utils',
         'Django',
-        'Pillow'
+        'Pillow',
+        'django-model-utils',
+        'six'
     ],
     test_suite='runtests.runtests'
 )
